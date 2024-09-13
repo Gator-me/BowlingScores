@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title>Monday Vegas, Baby</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+
+      function countdown30() {
+        var el = document.getElementById("count")
+        el.innerText = el.innerText - 1
+      }
+      setInterval(countdown30, 1000);
+
+    </script>
+    <meta http-equiv="refresh" content="30">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div id=back>
+      <p>Hello, World!</p>
+    </div>
+    <div id="counter">
+      <p id="count">30</p>
+    </div>
+  </body>
+</html>

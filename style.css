@@ -1,0 +1,12 @@
+#back {
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+}
+
+#counter {
+    text-align: center;
+    height: auto;
+    font-size: xx-large;
+}
